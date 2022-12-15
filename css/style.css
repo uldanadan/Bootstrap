@@ -1,0 +1,73 @@
+/* HEADER */
+.navbar {
+    background-color: currentColor;
+}
+
+.navbar-dark .navbar-brand {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: row-reverse;
+}
+
+/* CAROUSEL */
+.w-100 {
+    height: 80vh;
+}
+.carousel-indicators li {
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+}
+
+/* CARD */
+.card-block {
+    padding: 40px 0;
+}
+
+.card-header h4{
+    font-size: 1.2rem;
+}
+
+.bi-check::before {
+    content: "\F26E";
+}
+
+.bi-gift-fill::before {
+    content: "\F3EB";
+}
+
+.bi-compass::before {
+    content: "\F2D1";
+}
+
+.bi {
+    margin-right: 10px;
+}
+
+/* IMAGES */
+.images-block .row {
+    text-align: center;
+}
+.images-block img {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+/* FEATURES */
+.list-item {
+    cursor: pointer;
+}
+
+/* MODAL-BLOCK */
+.modal-block .row {
+    display: flex;
+    align-items: center;
+}
+.btn button{
+    padding: 15px 100px;
+}
